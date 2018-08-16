@@ -44,5 +44,4 @@ function Join-CMSoftwareUpdateGroup
 <#
     Example
 #>
-
-#Join-CMSoftwareUpdateGroup -Source 'Servers | Updates | 2018-01','Servers | Updates | 2018-02' -Target 'Servers | Updates | 2018-05 (Temporary)' -Verbose
+#Join-CMSoftwareUpdateGroup -Source 'SUG-2018-01','SUG-2018-02','SUG-2018-03' -Target 'SUG-Q1'
